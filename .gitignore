@@ -1,0 +1,25 @@
+node_modules/
+dist/
+
+# Vite cache
+.vite/
+
+# OS / editors
+.DS_Store
+*.local
+*.log
+
+# Netlify upload zips produced by npm run zip:netlify*
+store2-netlify*.zip
+
+# Env (secrets)
+.env
+.env.*
+!.env.example
+
+node_modules
+dist
+dist 2
+*.zip
+.env
+.vscode

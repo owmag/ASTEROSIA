@@ -1,0 +1,125 @@
+:root {
+  --store-gutter: 1.25rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #0f0f0f;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+b,
+strong {
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  overscroll-behavior: none;
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overscroll-behavior: none;
+}
+
+body.detail-dialog-open {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+html.detail-dialog-open {
+  overscroll-behavior: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/*
+ * Closed native <dialog> must stay hidden: `.product-detail-dialog` in App.css sets `display: flex`
+ * with specificity (class) that overrides the UA `dialog { display: none }`. Product overlay uses a
+ * <div.product-detail-dialog>, which this selector does not match.
+ */
+dialog.product-detail-dialog:not([open]) {
+  display: none !important;
+}
+:root {
+  --store-gutter: 1.25rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #0f0f0f;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+b,
+strong {
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  overscroll-behavior: none;
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overscroll-behavior: none;
+}
+
+body.detail-dialog-open {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+html.detail-dialog-open {
+  overscroll-behavior: none;
+}
+
+#root {
+  min-height: 100vh;
+}

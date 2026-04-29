@@ -1,0 +1,95 @@
+/* Cart drawer: stacks above header (≈2000) and catalog overlays (≈1000), slides from the viewport’s right edge. */
+.cart-detail-dialog.footer-detail-dialog.product-detail-dialog {
+  --cart-drawer-duration: 0.6s;
+  --cart-drawer-exit-duration: 0.8s;
+  z-index: 10000;
+  isolation: isolate;
+}
+
+@keyframes cart-drawer-slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes cart-drawer-slide-out {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes cart-drawer-backdrop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cart-drawer-backdrop-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.cart-detail-dialog.footer-detail-dialog.product-detail-dialog[open] {
+  background: #fff;
+  color: #0f0f0f;
+  animation: cart-drawer-slide-in var(--cart-drawer-duration) cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.cart-detail-dialog.footer-detail-dialog.product-detail-dialog[open].cart-detail-dialog--exiting {
+  animation: cart-drawer-slide-out var(--cart-drawer-exit-duration) cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  pointer-events: none;
+}
+
+.cart-detail-dialog.footer-detail-dialog.product-detail-dialog[open]::backdrop {
+  background: rgba(15, 15, 15, 0.14);
+  animation: cart-drawer-backdrop-in var(--cart-drawer-duration) cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.cart-detail-dialog.footer-detail-dialog.product-detail-dialog[open].cart-detail-dialog--exiting::backdrop {
+  animation: cart-drawer-backdrop-out var(--cart-drawer-exit-duration) cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.cart-detail-dialog.footer-detail-dialog.product-detail-dialog[open] .product-card {
+  background: #fff;
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cart-detail-dialog.footer-detail-dialog.product-detail-dialog[open] {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .cart-detail-dialog.footer-detail-dialog.product-detail-dialog[open]::backdrop {
+    animation: none;
+    opacity: 1;
+    background: rgba(15, 15, 15, 0.12);
+  }
+
+  .cart-detail-dialog.footer-detail-dialog.product-detail-dialog[open].cart-detail-dialog--exiting {
+    animation: none;
+  }
+
+  .cart-detail-dialog.footer-detail-dialog.product-detail-dialog[open].cart-detail-dialog--exiting::backdrop {
+    animation: none;
+    opacity: 1;
+  }
+}

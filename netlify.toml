@@ -1,0 +1,19 @@
+# Root must contain package.json where the build runs (Git or drag-and-drop ZIP).
+#
+# ZIP manual deploy WITH build:
+# Run `npm run zip:netlify` — uploads store2-netlify-build.zip with files at archive root.
+# DO NOT Compress the enclosing folder only: that nests app under store2/ and breaks npm.
+#
+# ZIP manual deploy of pre-built `dist/` only:
+# Run `npm run zip:netlify:dist` then use Netlify’s “deploy the contents of dist” flow if applicable.
+#
+# Git: Site settings → Build & deploy → Base directory empty unless this lives in a monorepo subfolder.
+#
+[build]
+  command = "npm install && npm run build"
+  publish = "dist"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

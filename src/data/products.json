@@ -1,0 +1,133 @@
+[
+  {
+    "title": "King's Frankincense (Essential Oil)",
+    "category": "Frankincense",
+    "priceCents": 2500,
+    "sku": "632835642834572",
+    "image": "King's Frankincense Essential Oil AAA Organic-Photoroom.png",
+    "imageScale": 0.5,
+    "summary": "AAA Organic. Our King's Frankincense is the highest quality organic frankincense essential oil available in the world. Responsibly sourced from the Sultanate of Oman. 5ml.",
+    "detailBullets": [
+      "100% pure Boswellia Sacra essential oil — the superior quality of all species. Sustainably sourced and distilled at source.",
+      "Anti-inflammatory and antiseptic — sanitizes wounds and speeds up healing.",
+      "Beautifying properties minimize wrinkles, fine lines, scars, stretch marks, and pores.",
+      "Soothes muscle aches and soreness.",
+      "Aroma lifts the spirits, boosts mood, and helps improve focus and optimism.",
+      "Inhaling alleviates respiratory discomfort and provides relief from bronchitis.",
+      "Amplifies a sacred atmosphere for prayer and connecting with the divine.",
+      "Promotes cellular health and protects DNA.",
+      "Tonic for the body's internal systems, helping optimal functionality."
+    ]
+  },
+  {
+    "title": "King's Frankincense (Raw Resin)",
+    "category": "Frankincense",
+    "priceCents": 2000,
+    "sku": "364215376135191",
+    "image": "King's Frankincense Raw Resin AAA Organic .png",
+    "imageScale": 0.5,
+    "summary": "AAA Organic. The highest grade, organic, ingestible raw frankincense resin in the world. May be chewed as gum, prepared as a cold infusion in water, or as a tea. 33g.",
+    "detailBullets": [
+      "Boswellia Sacra — highest quality frankincense, used since ancient times as the most sacred offering to the divine.",
+      "Boosts the immune system and oral health; treats mouth ulcers, bad breath, sore throat.",
+      "Improves respiratory health; helps treat bronchitis and alleviate asthma.",
+      "Anti-inflammatory properties for overall wellbeing; cancer fighter.",
+      "Tonic for internal organs: lungs, kidneys, liver, stomach.",
+      "Alleviates oxidative stress and protects DNA.",
+      "Improves digestion, manages stomach ulcers, improves joint health and arthritis.",
+      "Promotes skin and tissue regeneration. Anti-depressant and mood booster.",
+      "Can also be burned as incense to sanctify a space and support deep prayer."
+    ]
+  },
+  {
+    "title": "Ætherial Mist (Mystic Rose)",
+    "category": "Ætherial Mist",
+    "priceCents": 1200,
+    "sku": "217537123517253",
+    "image": "Ætherial Mist — Mystic Rose _ Royal Frankincense -Photoroom.png",
+    "imageScale": 0.78,
+    "summary": "High-frequency artisan aromatherapy spray to cleanse the auric field of a space or person. A signature blend of sacred spring water, highest quality essential oils, and floral waters. Energetically charged on sacred altars. 150ml.",
+    "detailBullets": [
+      "Energetically charged with prayers, healing sound frequencies, and crystal vibrations.",
+      "Mystic Rose: stimulates the heart chakra, promotes relaxation and peace of mind.",
+      "Powerful anti-depressant and anti-anxiety properties for emotional healing.",
+      "Dream healer — helps dispel nightmares and promotes restful sleep.",
+      "Royal Frankincense: uplifting balsam for clarity and spiritual contemplation.",
+      "Available in two sacred blends: Mystic Rose and Royal Frankincense."
+    ]
+  },
+  {
+    "title": "Hand Rolled Incense",
+    "category": "Frankincense / Incense",
+    "priceCents": 600,
+    "sku": "364215375135191",
+    "image": "Artisan Hand Rolled Incense -Photoroom.png",
+    "imageScale": 0.6,
+    "summary": "Sacred livani made in Mount Athos. Artisan made in an Athonian monastery with the highest quality essential oils and aromas. Base of premium frankincense. 33g.",
+    "detailBullets": [
+      "Used to sanctify a space and create the right environment for deep prayer.",
+      "Contains raw frankincense resin and special aromas in a formulation passed down through a sacred lineage.",
+      "Invites the angelic realms into the present.",
+      "Available in multiple sacred blends."
+    ]
+  },
+  {
+    "title": "Himalayan Stick Incense",
+    "category": "Incense",
+    "priceCents": 900,
+    "sku": "pending-sku-himalayan-stick",
+    "image": "Himalayan Stick Incense (Indoor Safe) -Photoroom.png",
+    "imageScale": 0.78,
+    "summary": "100% natural hand rolled Himalayan stick incense. All pure natural ingredients, no artificial fragrances. Safe for indoor use.",
+    "detailBullets": [
+      "Handmade in Nepal — Export Quality.",
+      "No artificial fragrances, all pure natural ingredients.",
+      "Available in: Golden Nag Champa, Sandalwood, Himalayan Flower, and Myrrh."
+    ]
+  },
+  {
+    "title": "Tibetan Medicinal Incense",
+    "category": "Incense",
+    "priceCents": 1200,
+    "sku": "pending-sku-tibetan-medicinal",
+    "image": "Tibetan Medicinal Incense -Photoroom.png",
+    "imageScale": 0.78,
+    "summary": "Traditional Tibetan aromatic medicinal incense, purely handmade from 38 natural organic medicinal herbs and substances. Safe for indoor use.",
+    "detailBullets": [
+      "Traditional Tibetan Monastery formulation — Traditional Aromatic Medicinal Incense.",
+      "Organic blend — no chemical extracts, non-toxic and non-addictive.",
+      "Handmade from 38 natural organic medicinal herbs and substances.",
+      "Safe for indoor use. Available in multiple sacred blends."
+    ]
+  },
+  {
+    "title": "Immune Booster",
+    "category": "Natural Medicine",
+    "priceCents": 1400,
+    "sku": "pending-sku-immune-spray",
+    "image": "Immune Booster — Mouth Spray -Photoroom.png",
+    "imageScale": 0.78,
+    "summary": "A special tincture blend sprayed in the mouth and throat to support the body's immune system. Anti-viral, anti-bacterial, antiseptic, and anti-inflammatory.",
+    "detailBullets": [
+      "Specially formulated tincture of Cretan medicinal herbs.",
+      "Anti-viral, anti-bacterial, antiseptic, and anti-inflammatory properties.",
+      "Powerhouse support for the respiratory system.",
+      "Helps relieve cough and symptoms of colds."
+    ]
+  },
+  {
+    "title": "Himalayan Elixir",
+    "category": "Natural Medicine",
+    "priceCents": 1800,
+    "sku": "36523641234523",
+    "image": "Himalayan Elixir -Photoroom.png",
+    "imageScale": 0.6,
+    "summary": "Proprietary blend of ayurvedic Himalayan spices infused in Nepalese mountain honey. For energy, immunity, and fighting inflammation. 500g.",
+    "detailBullets": [
+      "Signature blend of ayurvedic Himalayan spices infused in Nepalese mountain honey.",
+      "Potent anti-viral, anti-bacterial, and anti-inflammatory actions.",
+      "High in amino acids.",
+      "Boosts the immune system, lifts mood, and serves as an energizing tonic for the body."
+    ]
+  }
+]
