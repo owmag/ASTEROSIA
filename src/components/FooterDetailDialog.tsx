@@ -7,8 +7,6 @@ import {
   useState,
 } from "react";
 
-import contactStarUrl from "../../STAR.png.svg";
-
 const termsCopy =
   "We have curated a range of natural products that have been traditionally used to support wellbeing. We do not provide any kind of medical/health advice. Information and statements about the products on this site have not been evaluated by the Food and Drug Administration and are not intended to diagnose, treat, cure, or prevent any disease. Please consult your doctor prior to use if you have any concerns or questions.";
 
@@ -87,19 +85,6 @@ export const FooterDetailDialog = forwardRef<FooterDetailDialogHandle, Props>(
               <div className="product-card__detail footer-detail-card__detail">
                 {activeItem === "Terms" ? (
                   <p className="product-card__summary">{termsCopy}</p>
-                ) : activeItem === "Contact" ? (
-                  <div className="footer-contact">
-                    <img
-                      className="footer-contact-star"
-                      src={contactStarUrl}
-                      width={2480}
-                      height={2480}
-                      alt=""
-                      aria-hidden="true"
-                      decoding="async"
-                      fetchPriority="low"
-                    />
-                  </div>
                 ) : null}
               </div>
             </div>
